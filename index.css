@@ -1,0 +1,75 @@
+p {
+    text-align: center;
+}
+
+* {box-sizing: border-box}
+
+h1{
+  font-family: 'Bebas Neue', cursive;
+}
+body, html {
+  height: 100%;
+  margin: 0%;
+ }
+
+.bg {
+ background-image: url("/homepagebg.jpg");
+ height: 50%;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.logincontainer {
+  padding: 25px; 
+}
+
+label{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.loginbtn {
+  font-size: larger;
+  background-color: #ffd439;
+  color: white;
+  padding: 20px 25px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.loginbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.register {
+  background-color: #ffdb58;
+  text-align: center;
+  padding: 15px;
+}

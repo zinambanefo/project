@@ -1,0 +1,74 @@
+/*navigation bar styling*/
+.navbar {
+    width: 100%;
+    background-color: #ffdb58;
+    border: white 10px;
+    overflow: auto;
+    position: fixed;
+  }
+
+body{
+    background-color: #ffdb58;
+}
+  /*navigation bar LINKS styling*/
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 12px;
+    color:  black;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+
+  /* navbar links when mouse hovers over */
+.navbar a:hover {
+    background-color: #dbb00f;
+  }
+  
+  /* current/active navbar link */
+.active {
+    background-color: #edc42d;
+  }
+
+.films{
+    box-sizing: border-box;
+    background-color: white;
+    float: left;
+    width: 25%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.space{
+  padding: 50px;
+}
+
+div.filmbox{
+  overflow: auto;
+  white-space: nowrap;
+  display: table;
+}
+
+.poster{
+   width: 140px;
+   height: 210px;
+}
+
+h2{
+  text-align: left;
+}
+
+p{
+  text-align: left;
+}
+
+.btns{
+  float: left;
+}
+
+.welcome{
+  float: right;
+  color: white;
+  margin-right: 16px;
+}
